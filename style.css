@@ -27,10 +27,14 @@ header {
   background: #fff;
   border-bottom: 1px solid #eaeaea;
   font-weight: 600;
-  position: relative;
-  z-index: 1000;
-  font-family:"Roboto";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  font-family: "Roboto";
 }
+
 
 .container {
   max-width: 1200px;
