@@ -22,7 +22,17 @@
 </head>
 <body>
 
-<header>
+  <div id="page-image-overlay">
+  <img src="Petcare-images/logo.png" alt="Loading">
+</div>
+
+
+
+  <div id="scroll-loader"></div>
+
+
+
+<header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom ">
   <div class="container">
 
@@ -61,7 +71,7 @@
 </header>
 
 <main>
-  <section class="banner-section">
+  <section class="banner-section fade-up">
   <div class="banner-wrapper">
 
     <!-- Images -->
@@ -70,15 +80,15 @@
 
     <!-- Text Overlay -->
     <div class="banner-content">
-      <span class="tagline">WELCOME TO ELITE PET CARE!</span>
-      <h1>Best Care of Our<br>Little Friends</h1>
-      <button class="btn-learn">🐾 Learn More</button>
+      <span class="tagline fade-left">WELCOME TO ELITE PET CARE!</span>
+      <h1 class="fade-left">Best Care of Our<br>Little Friends</h1>
+      <button class="btn-learn fade-right">🐾 Learn More</button>
     </div>
 
     <!-- Cards -->
-    <div class="banner-cards">
+    <div class="banner-cards ">
 
-  <div class="card-box active">
+  <div class="card-box active fade-left">
     <div class="card-icon">
       <i class="fa-solid fa-house-chimney"></i>
     </div>
@@ -86,7 +96,7 @@
     <p>Place for dogs & cats to stay while you're away!</p>
   </div>
 
-  <div class="card-box">
+  <div class="card-box fade-up">
     <div class="card-icon">
       <i class="fa-solid fa-paw"></i>
     </div>
@@ -94,7 +104,7 @@
     <p>Pet health and wellness that’s one step ahead.</p>
   </div>
 
-  <div class="card-box">
+  <div class="card-box fade-right">
     <div class="card-icon">
       <i class="fa-solid fa-scissors"></i>
     </div>
@@ -109,14 +119,14 @@
 </section>
 
 
-<section class="about-section">
+<section class="about-section fade-left">
   <div class="about-container">
 
     <!-- Left Content -->
     <div class="about-content">
-      <span class="about-badge">ABOUT US</span>
+      <span class="about-badge fade-right">ABOUT US</span>
 
-      <h2>We Love to Take Care<br>of Your Pets</h2>
+      <h2 class="fade-right">We Love to Take Care<br>of Your Pets</h2>
 
       <p>
         ELITE PET CARE is the largest specialty pet retailer of services and solutions
@@ -133,7 +143,7 @@
     </div>
 
     <!-- Right Image -->
-    <div class="about-image">
+    <div class="about-image fade-left">
       <img src="Petcare-images/lab.jpg" alt="Dog">
 
       
@@ -142,17 +152,17 @@
   </div>
 </section>
 
-<section class="pet-services-sec">
+<section class="pet-services-sec fade-up">
   <div class="pet-services-head">
-    <span class="pet-services-badge">SERVICES</span>
-    <h2 class="pet-services-title">What We Can Offer</h2>
-    <p class="pet-services-desc">
+    <span class="pet-services-badge fade-left">SERVICES</span>
+    <h2 class="pet-services-title fade-right">What We Can Offer</h2>
+    <p class="pet-services-desc fade-left">
       Elite Pet care India is the largest specialty pet retailer of services and solutions
       for the lifetime needs of pets. At Elite Pet care India, we love pets.
     </p>
   </div>
 
-  <div class="pet-services-grid">
+  <div class="pet-services-grid fade-up">
 
     <div class="pet-service-card">
       <div class="pet-service-imgbox">
@@ -195,17 +205,17 @@
 
 
 
-<section class="facts-full container mt-5">
+<section class="facts-full container mt-5 fade-up">
 
   <div class="facts-overlay">
 
-    <div class="facts-left">
+    <div class="facts-left fade-left">
       <h2>Some Little Facts About<br>Our Company</h2>
       <button class="facts-btn">🐾 Learn More</button>
       <!-- <div class="facts-curves"></div> -->
     </div>
 
-    <div class="facts-right ms-3">
+    <div class="facts-right ms-3 fade-up">
       <div class="facts-box"><h3>250+</h3><p>HAPPY CLIENTS</p></div>
       <div class="facts-box"><h3>10+</h3><p>YEARS OF WORK</p></div>
       <div class="facts-box"><h3>15+</h3><p>TEAM MEMBERS</p></div>
@@ -214,7 +224,7 @@
 
   </div>
 
- <div class="facts-strip">
+ <div class="facts-strip ">
 
   <div class="brand-item">
     <img src="Petcare-images/pets.png" alt="Little Friends">
@@ -243,16 +253,16 @@
 </section>
 
 
-<section class="pet-benefits mt-5">
+<section class="pet-benefits mt-5 ">
   <div class="pet-container">
 
     <!-- Left Image -->
-    <div class="pet-image">
+    <div class="pet-image fade-right">
       <img src="Petcare-images/dog4.jpg" alt="Pet Image">
     </div>
 
     <!-- Right Content -->
-    <div class="pet-content">
+    <div class="pet-content fade-left">
       <span class="badge">BENEFITS</span>
       <h2>Why Choose Our Pet<br>Care Company?</h2>
 
@@ -308,7 +318,7 @@
   </div>
 </section>
 
-<div class="gallery">
+<div class="gallery fade-up">
   <img src="Petcare-images/dog5.jpg" class="grid-item">
   <img src="Petcare-images/cat2.jpg" class="grid-item">
   <img src="Petcare-images/dog8.jpg" class="grid-item">
@@ -327,10 +337,196 @@
 
 
 
+<section class="testimonials-section fade-right">
+  <span class="badge fade-left">TESTIMONIALS</span>
+  <h2 class="fade-right">Elite Pet care India Reviews</h2>
+  <p class="subtitle fade-left">
+    Pawscare is the largest specialty pet retailer of services and solutions<br>
+    for the lifetime needs of pets. At Pawscare, we love pets.
+  </p>
 
+  <div class="carousel-wrapper">
+    <div class="carousel-track">
+
+      <!-- Card 1 -->
+      <div class="testimonial-card">
+        <div class="profile">
+          <img src="Petcare-icons/people-1.jpg">
+          <img class="pet" src="Petcare-icons/pet-icon-1.jpg">
+        </div>
+        <h4>Tomas Williams</h4>
+        <span>GERMANIAN LITTLE PUG</span>
+        <p>Guests will feel at home with the around-the-clock care of our pet-loving staff...</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="testimonial-card">
+        <div class="profile">
+          <img src="Petcare-icons/person2.jpg">
+          <img class="pet" src="Petcare-icons/pet-icon-1.jpg">
+        </div>
+        <h4>Maria Jeferson</h4>
+        <span>ENGLAND LITTLE COCKAPO</span>
+        <p>Wanted to drop a line to say how totally amazing your service are...</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="testimonial-card">
+        <div class="profile">
+          <img src="Petcare-icons/person3.jpg">
+          <img class="pet" src="Petcare-icons/pet-icon-1.jpg">
+        </div>
+        <h4>David Miller</h4>
+        <span>HUSKY OWNER</span>
+        <p>Very professional service and friendly staff. Highly recommended.</p>
+        <div class="stars">★★★★★</div>
+      </div>
+      <!-- Card 4 -->
+<div class="testimonial-card">
+  <div class="profile">
+    <img src="Petcare-icons/person4.jpg">
+    <img class="pet" src="Petcare-icons/pet-icon-4.jpg">
+  </div>
+  <h4>Emma Watson</h4>
+  <span>GOLDEN RETRIEVER OWNER</span>
+  <p>The staff is incredibly caring and professional. My dog always comes back happy and healthy.</p>
+  <div class="stars">★★★★★</div>
+</div>
+
+
+    </div>
+    
+  </div>
+
+  <div class="dots"></div>
+</section>
+
+<section class="paw-newsletter mb-5 fade-up">
+  <div class="paw-newsletter-container">
+
+    <!-- Left Image -->
+    <div class="paw-newsletter-image fade-left">
+      <img src="Petcare-images/cat-newsletter-2.jpg" alt="Kitten">
+    </div>
+
+    <!-- Right Content -->
+    <div class="paw-newsletter-content ">
+      <span class="paw-badge fade-right">TESTIMONIALS</span>
+      <h2 class="fade-right">Subscribe for Newsletter</h2>
+
+      <form class="paw-form fade-up">
+        <input type="email" placeholder="Your Email *" required>
+        <button type="submit">🐾 SUBSCRIBE</button>
+      </form>
+
+      <p>Stay always in touch! Subscribe to our newsletter.</p>
+    </div>
+
+  </div>
+</section>
 
 
 </main>
+
+
+<footer class="paw-footer ">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-col brand">
+      <div class="f-logo">
+         <img src="Petcare-images/logo.png" class="img-fluid" alt="logo">
+      </div>
+
+      <p class="phone">📞 +91 70021 56543</p>
+      <p class="small">Got Questions? Call us 24/7</p>
+
+      <p class="address"><strong>Our Address</strong><br>
+        92 Bowery St, New York, NY 10013
+      </p>
+
+      <div class="paw-socials">
+  <a href="#" class="paw-social">
+    <img src="Petcare-icons/twitter.png" alt="twitter">
+  </a>
+  <a href="#" class="paw-social">
+    <img src="Petcare-icons/facebook.png" alt="facebook">
+  </a>
+  <a href="#" class="paw-social">
+    <img src="Petcare-icons/linkedin.png" alt="linkedin">
+  </a>
+  <a href="#" class="paw-social">
+    <img src="Petcare-icons/instagram.png" alt="instagram">
+  </a>
+</div>
+
+    </div>
+
+    <!-- Help -->
+    <div class="footer-col">
+      <h4>Help</h4>
+      <ul>
+        <li>Pet Services</li>
+        <li>Careers</li>
+        <li>Help Center</li>
+        <li>Treats Program</li>
+        <li>Charities</li>
+        <li>Privacy</li>
+      </ul>
+    </div>
+
+    <!-- Company -->
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li>Paw Grooming</li>
+        <li>Paw Products</li>
+        <li>Paw Boarding</li>
+        <li>Paw Foods</li>
+        <li>FAQ</li>
+      </ul>
+    </div>
+
+    <!-- Gallery -->
+    <div class="footer-col">
+  <h4>Gallery</h4>
+  <div class="gallery-grid paw-gallery">
+    <img src="Petcare-images/dog.jpg" class="paw-thumb">
+    <img src="Petcare-images/dog6.jpg" class="paw-thumb">
+    <img src="Petcare-images/dog3.jpg" class="paw-thumb">
+    <img src="Petcare-images/dog8.jpg" class="paw-thumb">
+    <img src="Petcare-images/cat3.jpg" class="paw-thumb">
+    <img src="Petcare-images/cat2.jpg" class="paw-thumb">
+  </div>
+</div>
+<div class="paw-lightbox">
+  <span class="paw-close">&times;</span>
+  <img class="paw-lightbox-img">
+  <div class="paw-nav paw-prev">&#10094;</div>
+  <div class="paw-nav paw-next">&#10095;</div>
+</div>
+
+
+    <!-- Working Hours -->
+    <div class="footer-col">
+      <h4>Working Hours</h4>
+      <div class="hours-box">
+        <p><span>Mon - Fri:</span> 7am - 6pm</p>
+        <p><span>Saturday:</span> 9am - 4pm</p>
+        <p><span>Sunday:</span> Closed</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>Terms of use | Privacy Policy</p>
+    <p>Copyright © 2026 Elite Pet Care India. All Rights Reserved.</p>
+  </div>
+</footer>
+
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -399,6 +595,153 @@ document.addEventListener('keydown', e => {
 function closeLightbox(){
   lightbox.classList.remove('active');
 }
+</script>
+
+<script>
+const track = document.querySelector('.carousel-track');
+const cards = document.querySelectorAll('.testimonial-card');
+const dotsContainer = document.querySelector('.dots');
+
+let index = 0;
+let visibleCards = getVisibleCards();
+
+function getVisibleCards() {
+  if (window.innerWidth <= 600) return 1;
+  return 2;
+}
+
+function createDots() {
+  dotsContainer.innerHTML = '';
+  const totalSlides = Math.ceil(cards.length / visibleCards);
+
+  for (let i = 0; i < totalSlides; i++) {
+    const dot = document.createElement('span');
+    if (i === 0) dot.classList.add('active');
+    dot.onclick = () => moveToSlide(i);
+    dotsContainer.appendChild(dot);
+  }
+}
+
+function moveToSlide(i) {
+  index = i;
+  const slideWidth = cards[0].offsetWidth * visibleCards;
+  track.style.transform = `translateX(-${slideWidth * index}px)`;
+
+  document.querySelectorAll('.dots span').forEach((d, idx) => {
+    d.classList.toggle('active', idx === i);
+  });
+}
+
+function autoSlide() {
+  const totalSlides = Math.ceil(cards.length / visibleCards);
+  index = (index + 1) % totalSlides;
+  moveToSlide(index);
+}
+
+window.addEventListener('resize', () => {
+  visibleCards = getVisibleCards();
+  createDots();
+  moveToSlide(0);
+});
+
+createDots();
+setInterval(autoSlide, 4000);
+</script>
+
+
+
+<script>
+const pawThumbs = document.querySelectorAll('.paw-thumb');
+const pawLightbox = document.querySelector('.paw-lightbox');
+const pawImg = document.querySelector('.paw-lightbox-img');
+const pawClose = document.querySelector('.paw-close');
+const pawNext = document.querySelector('.paw-next');
+const pawPrev = document.querySelector('.paw-prev');
+
+let pawIndex = 0;
+
+pawThumbs.forEach((img, i) => {
+  img.addEventListener('click', () => {
+    pawIndex = i;
+    openPawLightbox();
+  });
+});
+
+function openPawLightbox(){
+  pawImg.src = pawThumbs[pawIndex].src;
+  pawLightbox.style.display = 'flex';
+}
+
+pawNext.onclick = () => {
+  pawIndex = (pawIndex + 1) % pawThumbs.length;
+  openPawLightbox();
+};
+
+pawPrev.onclick = () => {
+  pawIndex = (pawIndex - 1 + pawThumbs.length) % pawThumbs.length;
+  openPawLightbox();
+};
+
+pawClose.onclick = () => {
+  pawLightbox.style.display = 'none';
+};
+
+pawLightbox.onclick = (e) => {
+  if(e.target === pawLightbox){
+    pawLightbox.style.display = 'none';
+  }
+};
+</script>
+
+
+
+<script>
+window.addEventListener("scroll", () => {
+  const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+  const scrolled = (scrollTop / scrollHeight) * 100;
+  document.getElementById("scroll-loader").style.width = scrolled + "%";
+});
+</script>
+
+
+
+<script>
+window.addEventListener("load", () => {
+  const overlay = document.getElementById("page-image-overlay");
+
+  setTimeout(() => {
+    overlay.style.opacity = "0";
+    overlay.style.transition = "0.5s";
+  }, 1000);
+
+  setTimeout(() => {
+    overlay.style.display = "none";
+  }, 1500);
+});
+</script>
+
+
+
+
+
+<script>
+const fadeElements = document.querySelectorAll('.fade-up, .fade-left, .fade-right');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    } else {
+      entry.target.classList.remove('show'); // repeat animation
+    }
+  });
+}, {
+  threshold: 0.15
+});
+
+fadeElements.forEach(el => observer.observe(el));
 </script>
 
 
